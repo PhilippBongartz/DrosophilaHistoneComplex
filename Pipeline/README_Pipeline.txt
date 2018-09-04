@@ -10,6 +10,8 @@ The purpose of this pipeline is to illustrate the workflow of a repeat complex a
 
 The whole pipeline has been tested on mac and linux. As development is ongoing and each pipeline step depends on its predecessors, there is nonetheless a lot of room for things to go wrong. If you experience problems running the pipeline, please do not hesitate to mail philipp.bongartz@h-its.org with a description of the problem. 
 
+The pipeline can also be applied to real data, starting with a fasta file containing PacBio reads sampled from a repeat complex. However, ideally in a preprocessing step all unique sequences in the data would be detected, classified and excised, so that only the repeat sequences are arranged into the multiple sequence alignment. As mentioned in the paper, this step is currently being done manually and its automatisation is a possible direction for future work.
+
 In the following I provide a description of every program in the pipeline, each closing with the compile and run commands. 
 
 
